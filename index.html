@@ -1,1 +1,71 @@
 
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Privacy Policy Generator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="print.css" media="print" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head><body>
+  <header>
+    <h1>Simple Privacy Policy Generator</h1>
+  </header>  <main class="container">
+    <aside class="sidebar">
+      <h2>Site Settings</h2><label>
+    <input type="checkbox" id="type-ecom" /> E-commerce Website
+  </label>
+  <label>
+    <input type="checkbox" id="type-blog" /> Blog or Personal Site
+  </label>
+
+  <h2>Data Collection</h2>
+  <label>
+    <input type="checkbox" id="collect-contact" /> Contact Form Submissions
+  </label>
+  <label>
+    <input type="checkbox" id="collect-analytics" /> Google Analytics Data
+  </label>
+
+  <h2>Data Sharing</h2>
+  <label>
+    <input type="checkbox" id="share-thirdparty" /> Shared with third-party tools
+  </label>
+
+  <p class="print-note">Use browser print option to download or print your policy.</p>
+</aside>
+
+<section class="preview">
+  <h2>Your Privacy Policy</h2>
+
+  <div class="block ecom-text">
+    <h3>For E-commerce Websites</h3>
+    <p>We collect customer data to fulfill orders, process payments, and manage deliveries. All data is encrypted and handled securely.</p>
+  </div>
+
+  <div class="block blog-text">
+    <h3>For Blogs or Personal Sites</h3>
+    <p>We may collect basic analytics to improve user experience. No personal data is stored without consent.</p>
+  </div>
+
+  <div class="block contact-text">
+    <h3>Contact Form Data</h3>
+    <p>When you submit a contact form, we collect your name, email, and message content solely to respond to inquiries.</p>
+  </div>
+
+  <div class="block analytics-text">
+    <h3>Google Analytics</h3>
+    <p>We use Google Analytics to monitor traffic and improve performance. No personal data is shared with third parties.</p>
+  </div>
+
+  <div class="block share-text">
+    <h3>Third-party Data Sharing</h3>
+    <p>In some cases, we may share data with external tools for marketing or analytics. This is done with user awareness and consent.</p>
+  </div>
+</section>
+
+  </main>  <footer>
+    <p>Made with ❤️ using HTML5 + CSS3</p>
+  </footer>
+</body></html>
