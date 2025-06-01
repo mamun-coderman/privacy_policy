@@ -1,1 +1,33 @@
 
+/* print.css */
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #000;
+  background: white;
+  margin: 0;
+}
+
+header, footer, .sidebar, .print-note {
+  display: none;
+}
+
+.preview {
+  padding: 2rem;
+}
+
+.block {
+  display: block !important;
+  margin-bottom: 2rem;
+  page-break-inside: avoid;
+  border: none;
+  box-shadow: none;
+}
+
+h2, h3 {
+  color: #000;
+}
+
+@page {
+  margin: 1in;
+}
